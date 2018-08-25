@@ -40,6 +40,7 @@
                     android:layout_weight="0.65"
                     >
                     <RelativeLayout
+                        android:id="@+id/cavity"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.65"
@@ -51,7 +52,7 @@
                             android:layout_centerInParent="true">
 
                             <ImageView
-                                android:id="@+id/cavity"
+                                android:id="@+id/cavityicon"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_alignParentEnd="true"
@@ -60,19 +61,20 @@
                                 android:adjustViewBounds="true"
                                 android:paddingLeft="5dp"
                                 android:scaleType="centerInside"
-                                android:src="@drawable/cavity" />
+                                android:src="@drawable/cavityicon" />
                             <TextView
 
                                  android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Tooth decay"
                                 android:paddingRight="6dp"
-                                android:layout_below="@+id/cavity"
+                                android:layout_below="@+id/cavityicon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>
                     </RelativeLayout>
                     <RelativeLayout
+                        android:id="@+id/hygiene"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.65"
@@ -83,10 +85,10 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true">
                             <ImageView
-                                android:id="@+id/oralcare"
+                                android:id="@+id/hygieneicon"
                                 android:layout_width="150dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/hygiene"
+                                android:src="@drawable/hygieneicon"
                                 android:adjustViewBounds="true"
                                 android:scaleType="centerInside"
                                 android:padding="8dp"
@@ -96,7 +98,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Oral Hygiene Guide"
-                                android:layout_below="@+id/oralcare"
+                                android:layout_below="@+id/hygieneicon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>
@@ -109,6 +111,7 @@
                     android:layout_marginTop="20dp"
                     >
                     <RelativeLayout
+                        android:id="@+id/toothwear"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
@@ -119,10 +122,10 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true">
                             <ImageView
-                                android:id="@+id/toothwear"
+                                android:id="@+id/bracesicon"
                                 android:layout_width="350dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/braces"
+                                android:src="@drawable/bracesicon"
                                 android:adjustViewBounds="true"
                                 android:scaleType="centerInside"
                                 android:padding="8dp"
@@ -132,12 +135,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Tooth Wears"
-                                android:layout_below="@+id/toothwear"
+                                android:layout_below="@+id/bracesicon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>
                     </RelativeLayout>
                     <RelativeLayout
+                        android:id="@+id/diet"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.65"
@@ -148,10 +152,10 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true">
                             <ImageView
-                                android:id="@+id/dietandteeth"
+                                android:id="@+id/teethicon"
                                 android:layout_width="100dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/teeth"
+                                android:src="@drawable/teethicon"
                                 android:adjustViewBounds="true"
                                 android:scaleType="centerInside"
                                 android:padding="8dp"
@@ -161,7 +165,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Diet and teeth"
-                                android:layout_below="@+id/dietandteeth"
+                                android:layout_below="@+id/teethicon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>
@@ -175,6 +179,7 @@
 
                     >
                     <RelativeLayout
+                        android:id="@+id/askdoctor"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.65"
@@ -185,10 +190,10 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true">
                             <ImageView
-                                android:id="@+id/askadoctor"
+                                android:id="@+id/doctoricon"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/doctor"
+                                android:src="@drawable/doctoricon"
                                 android:adjustViewBounds="true"
                                 android:scaleType="centerInside"
                                 android:padding="8dp"
@@ -198,12 +203,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Ask a doctor"
-                                android:layout_below="@+id/askadoctor"
+                                android:layout_below="@+id/doctoricon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>
                     </RelativeLayout>
                     <RelativeLayout
+                        android:id="@+id/record"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.65"
@@ -214,7 +220,7 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true">
                             <ImageView
-                                android:id="@+id/diary"
+                                android:id="@+id/diaryicon"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:src="@drawable/diaryicon"
@@ -227,7 +233,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Our Patient records"
-                                android:layout_below="@+id/diary"
+                                android:layout_below="@+id/diaryicon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>
@@ -239,6 +245,7 @@
                     android:layout_weight="0.65"
                     android:layout_marginTop="20dp">
                     <RelativeLayout
+                        android:id="@+id/team"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.5"
@@ -249,10 +256,10 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true">
                             <ImageView
-                                android:id="@+id/ourteam"
+                                android:id="@+id/groupicon"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/group"
+                                android:src="@drawable/groupicon"
                                 android:adjustViewBounds="true"
                                 android:scaleType="centerInside"
                                 android:padding="8dp"
@@ -262,12 +269,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Our Team"
-                                android:layout_below="@+id/ourteam"
+                                android:layout_below="@+id/groupicon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>
                     </RelativeLayout>
                     <RelativeLayout
+                        android:id="@+id/map"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.65"
@@ -278,10 +286,10 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true">
                             <ImageView
-                                android:id="@+id/map"
+                                android:id="@+id/mapicon"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/map"
+                                android:src="@drawable/mapicon"
                                 android:adjustViewBounds="true"
                                 android:scaleType="centerInside"
                                 android:padding="8dp"
@@ -291,7 +299,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Map"
-                                android:layout_below="@+id/map"
+                                android:layout_below="@+id/mapicon"
                                 android:layout_centerHorizontal="true"
                                 android:textSize="14sp" />
                         </RelativeLayout>

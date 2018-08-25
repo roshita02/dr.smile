@@ -4,12 +4,12 @@ import android.os.Bundle;
 import android.webkit.WebView;
 
 public class Activity_Toothdecay extends AppCompatActivity{
-
+    WebView myWebView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__toothdecay);
-        WebView myWebView = (WebView) findViewById(R.id.webView1);
+        myWebView = (WebView) findViewById(R.id.webView1);
         myWebView.loadUrl("file:///android_asset/cavity.html");
     }
 }

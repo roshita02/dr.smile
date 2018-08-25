@@ -28,5 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         },SPLASH_TIMEOUT);
 
+
+
     }
 }
